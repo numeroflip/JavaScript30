@@ -17,7 +17,7 @@
           <input class="blur" id="blur" type="range" name="blur" min="0" max="25" value="1" data-sizing="px">
       
           <label for="base">Base Color</label>
-          <input id="base" type="color" name="base" value="#fff">
+          <input id="base" type="color" name="base" value="#807700">
         </div>
 
     
@@ -31,7 +31,7 @@
       --color: #000000;
       --borRad: 10px;
       --blur: 0px;
-      --base: black;
+      --base: #0b920b;
       --shadow: 10px;
     }
 
@@ -50,7 +50,9 @@
     body * {
       font-family: inherit;
     }
-
+    input[type=range] {
+      background : white;
+    }
     .main {
       display: flex;
       justify-content: center;
